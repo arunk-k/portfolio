@@ -3,33 +3,13 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const projects = [
     {
         id: 1,
-        title: "SaaS Landing Page",
-        description: "A beautiful landing page app using React and Tailwind",
+        title: "CareerWay Landing Page",
+        description: "A web app that helps students explore career paths, follow skill-based roadmaps, and receive personalized guidance. Includes an admin panel to manage content efficiently.",
         image: "/projects/project1.png",
-        tags: ["React", "TailwindCSS", "Mongodb"],
-        demoUrl: "https://userapp-nine.vercel.app/login",
-        githubUrl: "https://github.com/arunk-k/userapp.git"
+        tags: ["React", "Bootstrap", "Node.js", "Mongodb"],
+        demoUrl: "https://careerway.vercel.app/",
+        githubUrl: "https://github.com/arunk-k/careerway.git"
     },
-
-    {
-        id: 2,
-        title: "Ai Page",
-        description: "A beautiful landing page app using React and Tailwind",
-        image: "/projects/project2.png",
-        tags: ["React", "TailwindCSS", "Mongodb"],
-        demoUrl: "https://userapp-nine.vercel.app/login",
-        githubUrl: "https://github.com/arunk-k/userapp.git"
-    },
-
-    {
-        id: 3,
-        title: "demo Page",
-        description: "A beautiful landing page app using React and Tailwind",
-        image: "/projects/project3.png",
-        tags: ["React", "TailwindCSS", "Mongodb"],
-        demoUrl: "https://userapp-nine.vercel.app/login",
-        githubUrl: "https://github.com/arunk-k/userapp.git"
-    }
 
 ]
 
@@ -84,7 +64,7 @@ const ProjectsSection = () => {
                 </div>
                 <div className="text-center mt-12">
                     <a target="_blank" className="cosmic-button w-fit flex items-center mx-auto gap-2" href="https://github.com/arunk-k">
-                        Check My Github <ArrowRight size={16}/>
+                        Check My Github <ArrowRight size={16} />
                     </a>
                 </div>
             </div>
