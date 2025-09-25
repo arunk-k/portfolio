@@ -11,6 +11,16 @@ const projects = [
         githubUrl: "https://github.com/arunk-k/careerway.git"
     },
 
+    {
+        id: 2,
+        title: "QuickBlog",
+        description: "A full-stack blogging platform with AI-powered blog generation, secure JWT-based admin login, blog publishing controls, image uploads , and comment moderation.",
+        image: "/projects/project2.png",
+        tags: ["React", "TailwindCSS", "Node.js", "MongoDB", "Express"],
+        demoUrl: "https://quickblog-delta.vercel.app/",
+        githubUrl: "https://github.com/arunk-k/quickblog.git",
+    }
+
 ]
 
 const ProjectsSection = () => {
